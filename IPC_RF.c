@@ -6,7 +6,6 @@
 #include <unistd.h> 
 int main() {
 int fd1;
-
 char * myfifo = "/tmp/myfifo";
 mkfifo(myfifo, 0666);
 char str1[80], str2[80]; 
