@@ -1,9 +1,9 @@
 #include<stdio.h> 
 #include<conio.h> 
-main()
+void main()
 {
-int p[20], bt[20], wt[20], tat[20], i, k, n, temp; floatwtavg, 
-tatavg;
+int p[20], bt[20], wt[20], tat[20], i, k, n, temp; 
+float wtavg,tatavg;
 clrscr();
 printf("\nEnter the number of processes -- "); 
 scanf("%d", &n);
