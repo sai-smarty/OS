@@ -1,5 +1,5 @@
 #include<stdio.h> 
-main()
+void main()
 {
 int i,j,n,bu[10],wa[10],tat[10],t,ct[10],max; 
 float awt=0,att=0,temp=0;
